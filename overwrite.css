@@ -1,0 +1,320 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014/09/24, 10:20:25
+    Author     : digila4
+*/
+@charset "Shift_JIS";
+* {
+    /* margin:0; */ 
+    /* padding:0; */ 	
+    line-height:1.5;		
+
+} 
+
+
+body, html {
+    background: #fff;
+    font-family:"ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", Meiryo, fantasy; 
+        height: 100%;
+}
+body, html , h1, h2, h3, h4{
+    font-family:"ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", Meiryo, fantasy; 
+}
+
+.top {
+    margin-top: 10px;
+    background:  #ffffff;
+    height: 66px;
+}
+.container {
+    padding: 0 0px;
+}
+
+
+
+.centered {
+    text-align: center;
+}
+/*------------ header -------------------*/
+header #header_top{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+header #nav_area{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header address {
+    color: #333333;
+    font-size: 28px;
+    font-style: normal;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+header address span {
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+}
+header address .glyphicon {
+    margin-bottom: -10px;
+    font-size: 22px;
+
+}
+
+
+/*------------ navber -------------------*/
+
+
+.navbar-nav > li > a {
+    color: #5cb85c;
+    text-transform: uppercase;
+}
+.navbar-nav > li > a {
+    color: #777;
+}
+.navbar-nav > li > a {
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.navbar {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding-left: 0px; 
+}
+
+.navbar-inverse {
+    background: #fff;
+}
+
+@media screen and (max-width: 479px) {
+   header h1 {
+    font-size: 28px;
+}
+        header address {
+    color: #333333;
+    font-size: 22px;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+    }
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #777777;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #5bc0de;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #5bc0de;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+    color: #444444;
+    background-color: #5bc0de;
+}
+
+
+header nav {
+    border-bottom:3px solid #5bc0de;
+    border-width: 0 0 5px;
+}
+
+header ul li {
+    border-right: 1px solid #CCCCCC;
+    font-size: 16px;
+}
+header ul li a {
+    color: #333333 ;
+    padding: 22px;
+}
+
+#right .glyphicon {
+    font-size: 22px;
+}
+/*------------ maincontent -------------------*/
+
+#maincontent .row{
+    margin-bottom: 30px;
+
+}
+
+
+
+/*------------ toparea -------------------*/
+.jumbotron {
+    height: 400px;
+    padding: 80px 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: inherit;
+    background-color: #ffffff;
+    background: url(../img/topbg3.jpg);
+    text-align: center;
+}
+.jumbotron h1, .jumbotron h2,
+.jumbotron .h1 ,.jumbotron .h2  {
+    color: #fff;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+.jumbotron > hr {
+    border-top-color: #d5d5d5;
+}
+.jumbotron .container {
+    max-width: 100%;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+    font-size: 63px;
+}
+
+@media screen and (max-width: 479px) {
+    #maincontent h1{
+
+        font-size: 40px;
+        line-height: 1;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    #maincontent .jumbotron {
+
+        padding: 50px 15px;
+        margin-top: 25px;
+        color: inherit;
+        background-color: #ffffff;
+        background: url(../img/topbg3.jpg);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #maincontent #img_txt{
+
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
+
+
+    /*------------ footer -------------------*/
+
+
+    footer {
+        margin-top: 0px;
+        padding: 20px 20px;
+        background-color: #EEEEEE;
+
+    }
+
+    .form {
+        margin-top: 0em;
+    }
+
+    footer hr{
+        margin: 10px 0px 5px;
+        margin-bottom: 20px;
+        width: 80%;
+        border-top: 3px solid #5bc0de;
+    }
+
+    #map-container { height: 20% }
+    #map-outer {  height: 200px;
+                  padding-right: 30px; }
+    #map-container { height: 250px ;
+    }
+    @media all and (max-width: 991px) {
+        #map-outer  { height: 300px }
+    }
+
+
+    #news_area{
+    }
+
+
+    #news_info{
+        height: 200px;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .news_table{
+        height: 300px;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+    }
+    .news_table th{
+        width: 25%;
+        border: 1px solid #CCCCCC;
+        font-size: 14px;
+        padding: 30px 10px;
+        text-align: center;
+        color: #333;
+        background-color: #eee;
+        border: 1px solid #b9b9b9;
+    }
+    .news_table td{
+        height: 20px;
+        padding: 30px 30px;
+        vertical-align: middle;
+        background-color: #fff;
+        border: 1px solid #b9b9b9;
+    }
+
+    .news_table td ::-webkit-scrollbar{
+        width: 5px;
+        background: #ffffff;
+    }
+    .news_table td ::-webkit-scrollbar-thumb{
+        width: 5px;
+        background: #eee;
+        border-radius: 3px;
+    }
+
+    #banner_area{
+
+    }
+
+    #banner_area  div{
+        margin-bottom: 10px;
+    }
+    /*------------ other -------------------*/
+    hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0;
+        border-top: 3px solid #5bc0de;
+    }
